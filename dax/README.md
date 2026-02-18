@@ -1,4 +1,4 @@
-# DAX Exportadas
+# DAX do projeto
 
 ## % - dia da semana com mais fat
 
@@ -187,7 +187,7 @@ CALCULATE(
 )
 ```
 
-## Corridas homens
+## corridas homens
 
 ```DAX
 CALCULATE(
@@ -196,7 +196,7 @@ CALCULATE(
 )
 ```
 
-## Corridas mulheres
+## corridas mulheres
 
 ```DAX
 CALCULATE(
@@ -355,7 +355,7 @@ MAXX(
 )
 ```
 
-## Qtd cancelamentos homem
+## qtd - cancelamentos homem
 
 ```DAX
 CALCULATE(
@@ -364,7 +364,7 @@ CALCULATE(
 )
 ```
 
-## Qtd cancelamentos mulher
+## qtd - cancelamentos mulher
 
 ```DAX
 CALCULATE(
@@ -373,14 +373,14 @@ CALCULATE(
 )
 ```
 
-## Total corridas cliente
+## total corridas cliente
 
 ```DAX
 COUNT(Uber2025[Id cliente])
 --contagem, porque estamos contando quantas viagens um cliente fez, mesmo que tenha feita mais que uma
 ```
 
-## Total corridas unicas por cliente
+## total corridas unicas por cliente
 
 ```DAX
 DISTINCTCOUNT(Uber2025[Id cliente])
